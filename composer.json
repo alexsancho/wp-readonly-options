@@ -1,0 +1,27 @@
+{
+  "name": "alexsancho/wp-readonly-options",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0",
+  "description": "Predefine WordPress options in your code and force get_option() results.",
+  "homepage": "https://github.com/alexsancho/wp-readonly-options",
+  "authors": [
+    {
+      "name": "Alex Sancho",
+      "email": "alex@alexsancho.name",
+      "homepage": "https://github.com/alexsancho"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "wp",
+    "database",
+    "option",
+    "force",
+    "must use"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "roave/security-advisories": "dev-master",
+    "composer/installers": ">=v1.0.12"
+  }
+}
