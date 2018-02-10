@@ -1,4 +1,5 @@
 # WP Plugin: Readonly Options
+[![Build Status](https://travis-ci.org/alexsancho/wp-readonly-options.svg?branch=master)](https://travis-ci.org/alexsancho/wp-readonly-options)
 
 Have you ever wanted to set all your options as `define('PLUGIN_OPTION','some_value')` in `wp_config.php`?
 
