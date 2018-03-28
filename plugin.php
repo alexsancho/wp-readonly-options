@@ -121,7 +121,7 @@ class ReadonlyOptions {
             (function () {
                 // Turn these input elements to readOnly to present that their values are forced
                 ['<?php echo implode( $input_element_ids, "','" ); ?>'].forEach(function (elementId) {
-                    var el = document.getElementById(elementId);
+										var el = document.getElementsByName(elementId)[0] || document.getElementById(elementId);
                     if (typeof(el) !== 'undefined' && el !== null) {
                         el.readOnly = true;
                         el.title = '<?php echo $hover_text;?>';
