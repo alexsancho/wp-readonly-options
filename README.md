@@ -82,11 +82,3 @@ Disables readonly attribute setter Javascript hack. It might be incompatible wit
 ```php
 define('WP_READONLY_OPTIONS_NO_JS',true);
 ```
-
-## License
-GPLv2
-
-## Maintainers
-[@onnimonni](https://github.com/onnimonni)
-
-[@villepietarinen](https://github.com/villepietarinen)
