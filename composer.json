@@ -3,7 +3,6 @@
   "type": "wordpress-muplugin",
   "license": "GPL-2.0",
   "description": "Predefine WordPress options in your code and force get_option() results.",
-  "homepage": "https://github.com/alexsancho/wp-readonly-options",
   "authors": [
     {
       "name": "Alex Sancho",
